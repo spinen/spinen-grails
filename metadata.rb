@@ -1,7 +1,13 @@
-name             'spinen-base'
+name             @cookbook_name
 maintainer       'SPINEN'
-maintainer_email 'luke.reimer@spinen.com'
-license          'All rights reserved'
-description      'Installs/Configures spinen-base'
-long_description 'Installs/Configures spinen-base'
+maintainer_email  @author 
+license          'MIT'
+description      'Installs/Configures' @cookbook_name
+long_description 'Installs/Configures' @cookbook_name
 version          '0.1.0'
+
+%w(
+
+).each do |cookbook|
+  depends cookbook
+end
