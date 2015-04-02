@@ -1,0 +1,7 @@
+name             'spinen-base'
+maintainer       'SPINEN'
+maintainer_email 'luke.reimer@spinen.com'
+license          'All rights reserved'
+description      'Installs/Configures spinen-base'
+long_description 'Installs/Configures spinen-base'
+version          '0.1.0'
