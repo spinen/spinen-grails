@@ -1,38 +1,22 @@
-# spinen-base-cookbook
+# spinen-grails-cookbook
 
-TODO: Enter the cookbook description here.
+This cookbook is essentially the same as the [maven cookbook](https://github.com/opscode-cookbooks/maven). It uses the ark cookbook to install grails from a zip file.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu
 
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['spinen-base']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
 
 ## Usage
 
-### spinen-base::default
+### spinen-grails::default
 
-Include `spinen-base` in your node's `run_list`:
+Include `spinen-grails` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[spinen-base::default]"
+    "recipe[spinen-grails::default]"
   ]
 }
 ```
